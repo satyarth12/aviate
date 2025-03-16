@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     # Third-party apps
     "rest_framework",
     "drf_spectacular",
+    # Local apps
+    "candidates",
 ]
 
 MIDDLEWARE = [
