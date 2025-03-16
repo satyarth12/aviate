@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aviate"
+version = "0.1.0"
+description = "Applicant Tracking System for Aviate Assignment"
+authors = ["Satyarth Raghuvanshi <srk.satyarth.1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.1.7"
+djangorestframework = "^3.15.2"
+drf-spectacular = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
